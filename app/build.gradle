@@ -43,4 +43,7 @@ dependencies {
     implementation "com.google.dagger:dagger:$daggerVersion"
     compileOnly "javax.annotation:jsr250-api:$javaxAnnotations_version"
     compileOnly "javax.inject:javax.inject:$javaxInject"
+
+    implementation "android.arch.lifecycle:extensions:2.0.0"
+    implementation "android.arch.lifecycle:viewmodel:2.0.0"
 }
